@@ -34,7 +34,7 @@ CHANNEL_ID = 0
 MAIN_LOG_CHANNEL = int(os.environ.get("MAIN_LOG_CHANNEL", "-1003808259371"))
 
 # Force-subscribe channel for the main bot (username without @)
-FSUB_CHANNEL = os.environ.get("FSUB_CHANNEL", "cantarellabots") 
+FSUB_CHANNEL = os.environ.get("FSUB_CHANNEL", "dhiyabots") 
 
 # =============================================================================
 # ENCRYPTION — Used to secure bot tokens in the database
@@ -153,7 +153,7 @@ ABOUT_MSG = """<b>━━━━━━━━━━━━━━━━━━━━�
 │ ◈ ᴀᴜᴛᴏ-ʜɪʙᴇʀɴᴀᴛɪᴏɴ
 ╰──────────────────╯
 
-<b>ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ</b> @cantarellabots</blockquote>"""
+<b>ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ</b> @dhiyabots</blockquote>"""
 
 FORCE_MSG = """<b>━━━━━━━━━━━━━━━━━━━━━
 🔒 𝗔𝗖𝗖𝗘𝗦𝗦 𝗥𝗘𝗦𝗧𝗥𝗜𝗖𝗧𝗘𝗗
