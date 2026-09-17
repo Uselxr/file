@@ -10,20 +10,20 @@ from logging.handlers import RotatingFileHandler
 # =============================================================================
 
 # Telegram API credentials from https://my.telegram.org
-API_ID = int(os.environ.get("API_ID", ""))
+API_ID = int(os.environ.get("API_ID", "35024336"))
 APP_ID = API_ID # Alias for backward compatibility
-API_HASH = os.environ.get("API_HASH", "")
+API_HASH = os.environ.get("API_HASH", "9f52a1ee0c449eda577e3f362cac7702")
 #@cantarellabots
 # Main controller bot token from @BotFather
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8219915566:AAEH9bAbC2ZMgAYXJ5ezkmFFzDPsbKW9IWg")
 TG_BOT_TOKEN = BOT_TOKEN # Alias for backward compatibility
 #@cantarellabots
 # Owner's Telegram user ID (numeric)
-OWNER_ID = int(os.environ.get("OWNER_ID", "5756495153"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "7049074888"))
 
 # MongoDB connection URI
-MONGO_URI = os.environ.get("MONGO_URI", "")
-MONGO_DB_NAME = os.environ.get("MONGO_DB_NAME", "cantarellabots")
+MONGO_URI = os.environ.get("MONGO_URI", "mongodb+srv://rubesh08virat:rubesh08virat@cluster0.d33p1rm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+MONGO_DB_NAME = os.environ.get("MONGO_DB_NAME", "rubesh08virat")
 DB_URI = MONGO_URI    # Alias for old bot.py
 DB_NAME = MONGO_DB_NAME # Alias for old bot.py
 
@@ -31,7 +31,7 @@ DB_NAME = MONGO_DB_NAME # Alias for old bot.py
 CHANNEL_ID = 0
 
 # Central log channel for logging bot creations and generated links
-MAIN_LOG_CHANNEL = int(os.environ.get("MAIN_LOG_CHANNEL", ""))
+MAIN_LOG_CHANNEL = int(os.environ.get("MAIN_LOG_CHANNEL", "-1003808259371"))
 
 # Force-subscribe channel for the main bot (username without @)
 FSUB_CHANNEL = os.environ.get("FSUB_CHANNEL", "cantarellabots") 
